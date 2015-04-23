@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Blog | Manoranjan Padhy]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2015-04-23T12:24:41+05:30</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://manoranjanp.github.io/atom.xml" rel="self"/>
+  <link href="http://manoranjanp.github.io/"/>
+  <updated>2015-04-23T12:52:04+05:30</updated>
+  <id>http://manoranjanp.github.io/</id>
   <author>
     <name><![CDATA[Manoranjan Padhy]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress:Complete Guide]]></title>
-    <link href="http://yoursite.com/octopress-complete-guide.html"/>
+    <link href="http://manoranjanp.github.io/octopress-complete-guide.html"/>
     <updated>2015-04-23T12:24:12+05:30</updated>
-    <id>http://yoursite.com/octopress-complete-guide</id>
+    <id>http://manoranjanp.github.io/octopress-complete-guide</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
