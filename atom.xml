@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Blog | Manoranjan Padhy]]></title>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-04-23T12:24:41+05:30</updated>
+  <id>http://yoursite.com/</id>
+  <author>
+    <name><![CDATA[Manoranjan Padhy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress:Complete Guide]]></title>
+    <link href="http://yoursite.com/octopress-complete-guide.html"/>
+    <updated>2015-04-23T12:24:12+05:30</updated>
+    <id>http://yoursite.com/octopress-complete-guide</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
