@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Blog | Manoranjan Padhy]]></title>
-  <link href="http://manoranjanp.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Blog | Manoranjan Padhy]]></title>
+  <link href="http://manoranjanp.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://manoranjanp.github.io/"/>
   <updated>2015-04-24T16:09:00+05:30</updated>
   <id>http://manoranjanp.github.io/</id>
@@ -18,7 +18,7 @@
     <link href="http://manoranjanp.github.io/octopress/octopress-complete-guide.html"/>
     <updated>2015-04-23T12:24:12+05:30</updated>
     <id>http://manoranjanp.github.io/octopress/octopress-complete-guide</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://manoranjanp.github.io/images/octopress.png" width="710" height="280" title="Octopress" ></p>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/octopress.png" width="710" height="280" title="Octopress" ></p>
 
 <p>So, in this article we will be looking into how to blog with <strong>Octopress</strong> also known as the <strong>Blogging Framework for Hackers</strong> and host the page on GitHub. So, what is Octopress ? <em><strong>Well, the answer to this question is Octopress is a static blogging framework built on top of Jekyll, It uses scripts to build static files to be deployed to a server</strong></em></p>
 
@@ -45,32 +45,27 @@ deployed on to GitHub.</p></li>
 
 <p>In order to setup Octopress you need to install the latest version of Ruby in your machine which in our case is 2.2.2. So, let&rsquo;s start with installing Ruby first of all.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">1 rvm install 2.2.2 #It will install Ruby and other necessary things if required to support it.
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">1 rvm install 2.2.2 #It will install Ruby and other necessary things if required to support it.
 2 rvm gemset create octopress #This will create a gemset for the Octopress Blog.
-3 rvm 2.2.2@octopress #To convey RVM to use the newly created gemset.</code></pre></div>
-
+3 rvm 2.2.2@octopress #To convey RVM to use the newly created gemset.</code></pre></div></p>
 
 <p>Now, after Ruby is installed we need to pull down Octopress locally. To do that I will advice to fork the <a href="https://github.com/octopress/octopress">Octopress</a> Repository to your Git and then clone the repository to your local machine.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">git clone &#39;Link of your forked Octopress Repository&#39;
-cd octopress</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">git clone <span class="ni">&amp;lsquo;</span>Link of your forked Octopress Repository<span class="ni">&amp;rsquo;</span>
+cd octopress</code></pre></div></p>
 
 <p>Now once you enter the octopress repository after cloning it we need to install <a href="http://bundler.io/">Bundles</a> so that we can install required dependencies.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">gem install bundler
-bundle install</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">gem install bundler
+bundle install</code></pre></div></p>
 
 <p>So, after the above steps we have succesfully installed Octopress. Now, we will install theme for out blogs, to install default theme follow the below instructions and to install <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Themes</a> follow the instructions given on its page.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">rake install</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">rake install</code></pre></div></p>
 
 <p>If you get an error while following <code>rake install</code> then you can follow another command i.e.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">bundle exec rake install</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">bundle exec rake install</code></pre></div></p>
 
 <p>Now, your Octopress as well as desire theme is installed locally in your machine!</p>
 
@@ -80,21 +75,18 @@ bundle install</code></pre></div>
 
 <p><strong>Before Edit</strong></p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">url: http://yoursite.com
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">url: <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://yoursite.com&quot;</span><span class="nt">&gt;</span>http://yoursite.com<span class="nt">&lt;/a&gt;</span>
 title: My Octopress Blog
 subtitle: A blogging framework for hackers.
 author: Your Name
-simple_search: https://www.google.com/search</code></pre></div>
+simple_search: <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.google.com/search&quot;</span><span class="nt">&gt;</span>https://www.google.com/search<span class="nt">&lt;/a&gt;</span></code></pre></div></p>
 
-
-<p><strong>After Edit</strong></p>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html">url: http://manoranjanp.github.io
+<p><strong>After Edit</strong>
+<div class="highlight"><pre><code class="language-html" data-lang="html">url: <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://manoranjanp.github.io&quot;</span><span class="nt">&gt;</span>http://manoranjanp.github.io<span class="nt">&lt;/a&gt;</span>
 title: Blog | Manoranjan Padhy
 subtitle: Let the Code Fly!
 author: Manoranjan Padhy
-simple_search: https://www.google.com/search</code></pre></div>
-
+simple_search: <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.google.com/search&quot;</span><span class="nt">&gt;</span>https://www.google.com/search<span class="nt">&lt;/a&gt;</span></code></pre></div></p>
 
 <p>Thus this will configure your blog as per your needs. Also, when you scroll to the bottom of the page you can add your social links accordingly.</p>
 
@@ -102,17 +94,15 @@ simple_search: https://www.google.com/search</code></pre></div>
 
 <p>As mentioned earlier Octopress uses Markdown to write text. So, you need to first of all clear about various features as well as few syntax before you start writting. Now, in order to add <strong>New Post</strong> or <strong>New Page</strong> follow,</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">rake new_post[&quot;Your Post Name&quot;]    #This will add a new Post
-rake new_page[&quot;Your Page Name&quot;]    #This will add a new Page</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">rake new_post[<span class="ni">&amp;ldquo;</span>Your Post Name<span class="ni">&amp;rdquo;</span>]    #This will add a new Post
+rake new_page[<span class="ni">&amp;ldquo;</span>Your Page Name<span class="ni">&amp;rdquo;</span>]    #This will add a new Page</code></pre></div></p>
 
 <p>Once the post or page has been added go inside your theme folder and inside that into _posts folder and you will find the newly added post there. Now, open it in your favourite editor and start writting the text in Markdown.</p>
 
 <p>Once you are done with writting your page you need to generate the HTML file of your blog so that you can view it in the browser. This can be done by</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">rake generate #This will generate the blog
-rake preview  #This will run the blog on localhost. To view go to localhost:4000 in your browser.</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">rake generate #This will generate the blog
+rake preview  #This will run the blog on localhost. To view go to localhost:4000 in your browser.</code></pre></div></p>
 
 <h3>How to Host on GitHub.</h3>
 
@@ -120,16 +110,14 @@ rake preview  #This will run the blog on localhost. To view go to localhost:4000
 
 <p>Now open your terminal and <code>cd</code> into your Octopress installation and run the following,</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">rake setup_github_pages[##Copy Your SSH Clone Link Here##]
-rake deploy</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">rake setup_github_pages[##Copy Your SSH Clone Link Here##]
+rake deploy</code></pre></div></p>
 
 <p>After you completing this whenever you log on to <code>www.yourusername.github.io</code> you will be able to see your blog up and running. Now, once you complete the above you need to commit your changes which can be done by,</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">git add .  
-git commit -am &#39;Your Message&#39;  
-git push origin source</code></pre></div>
-
+<p><div class="highlight"><pre><code class="language-html" data-lang="html">git add .<span class="nt">&lt;br/&gt;</span>
+git commit -am <span class="ni">&amp;lsquo;</span>Your Message<span class="ni">&amp;rsquo;</span><span class="nt">&lt;br/&gt;</span>
+git push origin source</code></pre></div></p>
 
 <p>Now, your Blog is fully functional as well as hosted on GitHub. One more great feature you get here is to point a <strong>Custom Domain Name</strong> to your blog. So, how to do it?</p>
 
