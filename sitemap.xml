@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://manoranjanp.github.io/octopress/octopress-complete-guide.html</loc>
+    <loc>http://blog.manoranjan.me/octopress/octopress-complete-guide.html</loc>
     <lastmod>2015-04-23T12:24:12+05:30</lastmod>
   </url>
   <url>
-    <loc>http://manoranjanp.github.io/blog/archives/</loc>
+    <loc>http://blog.manoranjan.me/blog/archives/</loc>
   </url>
   <url>
-    <loc>http://manoranjanp.github.io/</loc>
+    <loc>http://blog.manoranjan.me/</loc>
   </url>
   <url>
-    <loc>http://manoranjanp.github.io/blog/categories/octopress/</loc>
+    <loc>http://blog.manoranjan.me/blog/categories/octopress/</loc>
   </url>
 </urlset>
