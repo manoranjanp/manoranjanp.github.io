@@ -39,9 +39,9 @@ So, in this article we will be looking into how to blog with **Octopress** also 
 In order to setup Octopress you need to install the latest version of Ruby in your machine which in our case is 2.2.2. So, let's start with installing Ruby first of all. 
 
 {% highlight html %}
-1 rvm install 2.2.2 #It will install Ruby and other necessary things if required to support it.
-2 rvm gemset create octopress #This will create a gemset for the Octopress Blog.
-3 rvm 2.2.2@octopress #To convey RVM to use the newly created gemset.
+rvm install 2.2.2 #It will install Ruby and other necessary things if required to support it.
+rvm gemset create octopress #This will create a gemset for the Octopress Blog.
+rvm 2.2.2@octopress #To convey RVM to use the newly created gemset.
 {% endhighlight %}
 
 Now, after Ruby is installed we need to pull down Octopress locally. To do that I will advice to fork the [Octopress](https://github.com/octopress/octopress) Repository to your Git and then clone the repository to your local machine.
