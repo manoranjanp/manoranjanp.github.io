@@ -7,11 +7,14 @@ categories: Octopress
 ---
 
 
-{% img center /images/octopress.png 710 280 Octopress %}
 
 So, in this article we will be looking into how to blog with **Octopress** also known as the **Blogging Framework for Hackers** and host the page on GitHub. So, what is Octopress ? _**Well, the answer to this question is Octopress is a static blogging framework built on top of Jekyll, It uses scripts to build static files to be deployed to a server**_
 
 <!--more-->
+
+
+{% img center /images/octopress.png 710 280 Octopress %}
+
 
 ### Why Use Octopress?
 
