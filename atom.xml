@@ -4,7 +4,7 @@
   <title><![CDATA[Blog | Manoranjan Padhy]]></title>
   <link href="http://blog.manoranjan.me/atom.xml" rel="self"/>
   <link href="http://blog.manoranjan.me/"/>
-  <updated>2015-04-24T17:08:09+05:30</updated>
+  <updated>2015-04-25T11:28:20+05:30</updated>
   <id>http://blog.manoranjan.me/</id>
   <author>
     <name><![CDATA[Manoranjan Padhy]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p><img class="center" src="http://blog.manoranjan.me/images/octopress.png" width="710" height="280" title="Octopress" ></p>
 
 <p>So, in this article we will be looking into how to blog with <strong>Octopress</strong> also known as the <strong>Blogging Framework for Hackers</strong> and host the page on GitHub. So, what is Octopress ? <em><strong>Well, the answer to this question is Octopress is a static blogging framework built on top of Jekyll, It uses scripts to build static files to be deployed to a server</strong></em></p>
+
+<!--more-->
+
 
 <h3>Why Use Octopress?</h3>
 
